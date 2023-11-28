@@ -5,3 +5,4 @@ def explode(inteiro):
     else:
         raise ValueError("explode: argumento nao inteiro")
 explode(34500)
+    
