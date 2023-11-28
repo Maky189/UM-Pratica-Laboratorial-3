@@ -3,6 +3,5 @@ def explode(inteiro):
         tuplo = tuple(elemento for elemento in str(inteiro))
         print(tuplo)
     else:
-        print(f" {inteiro} nao inteiro")
-
+        raise ValueError("explode: argumento nao inteiro")
 explode(34500)
