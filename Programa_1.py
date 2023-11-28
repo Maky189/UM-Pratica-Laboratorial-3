@@ -1,5 +1,5 @@
 def filtra_pares(tuplo):
-    novo_tuplo = tuple(elemento for elemento in tuplo if int(elemento) in range(2, 10, 2))
+    novo_tuplo = tuple(elemento for elemento in tuplo if int(elemento) in range(1, 10, 2))
     return novo_tuplo if novo_tuplo != () else ValueError("Erro no tuplo")
 
 tuplo = ()
